@@ -20,7 +20,7 @@ const GEOMETRIES_PER_TEST = 10;
 
 
 function geometryTesterWithReplacement (text, replace, replacement, validateZM = false) {
-  geometryTesterText(text, text.replaceAll(replace, replacement), null, validateZM);
+  geometryTesterText(text, text.replace(replace, replacement), null, validateZM);
 }
 
 function geometryTesterText (text, expected, validateZM = false) {
