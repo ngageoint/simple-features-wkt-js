@@ -27,8 +27,8 @@ View the latest [JS Docs](http://ngageoint.github.io/simple-features-wkt-js)
 ```javascript
 const { GeometryReader } = window.SimpleFeaturesWKT;
 
-//const buffer = ...
-const geometry = GeometryReader.readGeometry(bytes);
+//const text = ...
+const geometry = GeometryReader.readGeometry(text);
 const geometryType = geometry.getGeometryType();
 ```
 ##### - Write
@@ -36,7 +36,7 @@ const geometryType = geometry.getGeometryType();
 const { GeometryWriter } = window.SimpleFeaturesWKT;
 // const geometry = ...
 
-const buffer = GeometryWriter.writeGeometry(geometry);
+const text = GeometryWriter.writeGeometry(geometry);
 ```
 
 #### Node Usage ####
@@ -51,8 +51,8 @@ npm install --save simple-features-wkt-js
 ```javascript
 const { GeometryReader } = require("@ngageoint/simple-features-wkt-js");
 
-//const buffer = ...
-const geometry = GeometryReader.readGeometry(bytes);
+//const text = ...
+const geometry = GeometryReader.readGeometry(text);
 const geometryType = geometry.getGeometryType();
 ```
 ##### - Write
@@ -60,7 +60,7 @@ const geometryType = geometry.getGeometryType();
 const { GeometryWriter } = require("@ngageoint/simple-features-wkt-js");
 
 // const geometry = ...
-const buffer = GeometryWriter.writeGeometry(geometry);
+const text = GeometryWriter.writeGeometry(geometry);
 ```
 
 ### Build ###
