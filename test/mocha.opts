@@ -1,0 +1,5 @@
+--recursive
+--require chai
+--require test/WKTTestUtils
+--require source-map-support/register
+--full-trace
