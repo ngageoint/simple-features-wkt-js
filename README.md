@@ -11,7 +11,7 @@ Software source code previously released under an open source license and then m
 
 ### About ###
 
-[Simple Features WKT](http://ngageoint.github.io/simple-features-wkt-js/) is a Javascript library for reading and writing [Simple Feature](https://github.com/ngageoint/simple-features-js) Geometries to and from Well-Known Binary.
+[Simple Features WKT](http://ngageoint.github.io/simple-features-wkt-js/) is a Javascript library for reading and writing [Simple Feature](https://github.com/ngageoint/simple-features-js) Geometries to and from Well-Known Text.
 
 
 ### Usage ###
